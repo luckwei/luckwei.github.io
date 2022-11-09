@@ -6,10 +6,10 @@ import twt_icon from "../assets/images/twt_icon.svg";
 export default () => (
   <footer className="icons">
     <a href="https://facebook.com/luckwei" target="_blank">
-      <img src={twt_icon} />
+      <img src={fb_icon} />
     </a>
     <a href="https://twitter.com/luckweicheong" target="_blank">
-      <img src={fb_icon} />
+      <img src={twt_icon} />
     </a>
     <a href="https://instagram.com/cheongluckwei/" target="_blank">
       <img src={ig_icon} />
