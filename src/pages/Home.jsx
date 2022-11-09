@@ -8,7 +8,7 @@ export default () => (
     <main className="profile">
       <h1 className="profile--name">Luckwei Cheong</h1>
       <h3 className="profile--title">Data Science Graduate | React Student</h3>
-      <h4 className="profile--website">luckwei.netlify.app</h4>
+      <h4 className="profile--website">luckwei.github.io</h4>
       <div className="profile--connect">
         <a className="mail_btn" href="mailto:luckweicheong@gmail.com">
           <img src={mail_icon} />

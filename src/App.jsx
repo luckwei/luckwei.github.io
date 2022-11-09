@@ -10,7 +10,7 @@ export default () => (
     <Routes>
       <Route path="/" element={<Home />} />
       {/* <Route path="/404" element={<NotFound />} /> */}
-      <Route path="*" element={<Navigate to="/" />} />
+      {/* <Route path="*" element={<Navigate to="/" />} /> */}
     </Routes>
     <Footer />
   </>
