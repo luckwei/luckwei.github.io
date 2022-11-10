@@ -37,7 +37,7 @@ export default () => (
         <p>
           Other than coding and programming, I enjoy dancing! My main styles of
           interest are popping and hip hop. I also perform and cover Kpop
-          choreographies with my friends in the Melbourne community as a hobby!
+          choreographies with my friends in the Melbourne community!
         </p>
       </div>
     </main>

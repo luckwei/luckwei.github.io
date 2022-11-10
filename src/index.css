@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background-color: #23252C;
+  background-color: #23252c;
 }
 
 #root {
@@ -24,22 +24,21 @@ nav {
   border-radius: 10px 10px 0px 0px;
 }
 
-
 nav > a {
   float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 18px;
-  text-decoration: none;
-  font-size: 11px;
+  padding: 16px 24px;
 }
 
-nav > a:first-of-type{
+nav > a:first-of-type {
   padding-left: 25px;
 }
+
 nav a:hover {
   background-color: rgb(0, 0, 0);
-  color: rgb(229, 229, 229);
+}
+
+nav img {
+  width: 24px;
 }
 
 .picture {
@@ -48,7 +47,7 @@ nav a:hover {
 
 .profile {
   width: 100%;
-  background: #1A1B21;
+  background: #1a1b21;
   color: white;
   display: flex;
   flex-direction: column;
@@ -65,7 +64,7 @@ nav a:hover {
 }
 
 .profile--title {
-  color: #F3BF99;
+  color: #f3bf99;
   font-style: normal;
   font-weight: 400;
   font-size: 12.8px;
@@ -74,13 +73,12 @@ nav a:hover {
 }
 
 .profile--website {
-  color: #F5F5F5;
+  color: #f5f5f5;
   font-style: normal;
   font-weight: 400;
   font-size: 10.24px;
   line-height: 150%;
   margin: 9px 0 0 0;
-
 }
 
 .profile--connect {
@@ -90,7 +88,7 @@ nav a:hover {
   margin: 15px 0 0 0;
 }
 
-.profile--connect>a {
+.profile--connect > a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -105,26 +103,24 @@ nav a:hover {
   text-decoration: none;
 }
 
-.profile--connect>a>img {
+.profile--connect > a > img {
   width: 16px;
 }
 
 .mail_btn {
-
-  background: #FFFFFF;
+  background: #ffffff;
   /* border: 1px solid #D1D5DB; */
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   color: #374151;
-
 }
 
 .li_btn {
-  background: #5093E2;
+  background: #5093e2;
   /* border: 1px solid #D1D5DB; */
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .profile--info {
@@ -132,22 +128,22 @@ nav a:hover {
   margin: 27px 0 24px 0;
 }
 
-.profile--info>h3 {
+.profile--info > h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  color: #F5F5F5;
+  color: #f5f5f5;
   margin: 0;
 }
 
-.profile--info>p {
+.profile--info > p {
   font-style: normal;
   font-weight: 400;
   font-size: 10.24px;
   line-height: 150%;
   margin: 5px 0 15px 0;
-  color: #DCDCDC;
+  color: #dcdcdc;
 }
 
 .icons {
