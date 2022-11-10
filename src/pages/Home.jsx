@@ -1,7 +1,7 @@
 import liIcon from "../assets/images/li_icon.svg";
 import mailIcon from "../assets/images/mail_icon.svg";
 import myPhoto from "../assets/images/my_photo.webp";
-import HomeCSS from "./Home.module.css"
+import HomeCSS from "../styles/pages/Home.module.css"
 
 export default () => (
   <>

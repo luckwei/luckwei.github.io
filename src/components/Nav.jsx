@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import globeIcon from "../assets/images/globe_icon.svg"
 import homeIcon from "../assets/images/home_icon.svg"
-import NavCSS from "./Nav.module.css"
+import NavCSS from "../styles/components/Nav.module.css"
 
 export default () => (
   <nav className={NavCSS.nav}>
