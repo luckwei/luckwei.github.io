@@ -1,0 +1,23 @@
+nav {
+  background: #161619;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+nav > a {
+  float: left;
+  padding: 16px 24px;
+}
+
+nav > a:first-of-type {
+  padding-left: 25px;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+nav img {
+  width: 24px;
+}

@@ -1,0 +1,14 @@
+.icons {
+  height: 64px;
+  width: 100%;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img {
+  width: 25px;
+}

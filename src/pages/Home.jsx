@@ -1,21 +1,22 @@
 import liIcon from "../assets/images/li_icon.svg";
 import mailIcon from "../assets/images/mail_icon.svg";
 import myPhoto from "../assets/images/my_photo.webp";
+import HomeCSS from "./Home.module.css"
 
 export default () => (
   <>
-    <img className="picture" src={myPhoto} />
-    <main className="profile">
-      <h1 className="profile--name">Luckwei Cheong</h1>
-      <h3 className="profile--title">Data Science Graduate | React Student</h3>
-      <h4 className="profile--website">luckwei.github.io</h4>
-      <div className="profile--connect">
-        <a className="mail_btn" href="mailto:luckweicheong@gmail.com">
+    <img className={HomeCSS.picture} src={myPhoto} />
+    <main className={HomeCSS.profile}>
+      <h1 className={HomeCSS.name}>Luckwei Cheong</h1>
+      <h3 className={HomeCSS.title}>Data Science Graduate | React Student</h3>
+      <h4 className={HomeCSS.website}>luckwei.github.io</h4>
+      <div className={HomeCSS.connect}>
+        <a className={HomeCSS.mail_btn} href="mailto:luckweicheong@gmail.com">
           <img src={mailIcon} />
           Email
         </a>
         <a
-          className="li_btn"
+          className={HomeCSS.li_btn}
           href="https://www.linkedin.com/in/luck-wei-cheong/"
           target="_blank"
         >
@@ -23,7 +24,7 @@ export default () => (
           LinkedIn
         </a>
       </div>
-      <div className="profile--info">
+      <div className={HomeCSS.info}>
         <h3>About</h3>
         <p>
           I'm a Data Science Masters Graduate who loves coding and is interested

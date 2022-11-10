@@ -2,9 +2,10 @@ import fbIcon from "../assets/images/fb_icon.svg";
 import ghIcon from "../assets/images/gh_icon.svg";
 import igIcon from "../assets/images/ig_icon.svg";
 import twtIcon from "../assets/images/twt_icon.svg";
+import FooterCSS from "./Footer.module.css"
 
 export default () => (
-  <footer className="icons">
+  <footer className={FooterCSS.icons}>
     <a href="https://facebook.com/luckwei" target="_blank">
       <img src={fbIcon} />
     </a>
