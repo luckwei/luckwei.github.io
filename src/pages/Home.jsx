@@ -1,17 +1,17 @@
-import li_icon from "../assets/images/li_icon.svg";
-import mail_icon from "../assets/images/mail_icon.svg";
-import my_photo from "../assets/images/my_photo.jpg";
+import liIcon from "../assets/images/li_icon.svg";
+import mailIcon from "../assets/images/mail_icon.svg";
+import myPhoto from "../assets/images/my_photo.webp";
 
 export default () => (
   <>
-    <img className="picture" src={my_photo} />
+    <img className="picture" src={myPhoto} />
     <main className="profile">
       <h1 className="profile--name">Luckwei Cheong</h1>
       <h3 className="profile--title">Data Science Graduate | React Student</h3>
       <h4 className="profile--website">luckwei.github.io</h4>
       <div className="profile--connect">
         <a className="mail_btn" href="mailto:luckweicheong@gmail.com">
-          <img src={mail_icon} />
+          <img src={mailIcon} />
           Email
         </a>
         <a
@@ -19,7 +19,7 @@ export default () => (
           href="https://www.linkedin.com/in/luck-wei-cheong/"
           target="_blank"
         >
-          <img src={li_icon} />
+          <img src={liIcon} />
           LinkedIn
         </a>
       </div>
