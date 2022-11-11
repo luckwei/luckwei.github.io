@@ -13,7 +13,7 @@ export default [
       id: 2,
       imgSrc:
         "https://www.easyuni.my/media/institution/photo/2015/09/21/a53749f57df20f401babc429f03e613fead283.jpg.600x400_q85.jpg",
-      country: "Malaysia",
+      country: "Malaysia, Sunway City",
       name: "Monash Malaysia",
       timeFrom: "2017",
       timeTo: "2018",
@@ -23,7 +23,7 @@ export default [
         id: 3,
         imgSrc:
           "https://www.risk.net/sites/default/files/styles/landscape_750_463/public/2018-12/monash-university-clayton-campus.jpg?h=05280144&itok=Y0A4jK8v",
-        country: "Australia",
+        country: "Australia, Melbourne",
         name: "Monash Clayton",
         timeFrom: "2019",
         timeTo: "2022",
