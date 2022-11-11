@@ -12,14 +12,14 @@ nav > a {
   padding: 20px 25px 15px 25px;
 }
 
-/* nav > a:first-of-type {
+nav > a:first-of-type {
   padding-left: 35px;
-} */
+}
 
 nav > a:hover {
   background-color: rgb(0, 0, 0);
 }
 
 nav img {
-  width: 20px;
+  width: 22px;
 }
