@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import Travel from "./pages/Travel";
+import Travel from "./pages/Education";
 
 export default () => (
   <>
