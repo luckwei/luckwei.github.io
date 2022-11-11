@@ -2,15 +2,15 @@
     font-style: normal;
     display: grid;
     grid-template-areas:
-        "A B"
-        "A E"
-        "A F"
-        "A G";
+        "🖼️ loc"
+        "🖼️ title"
+        "🖼️ time"
+        "🖼️ desc";
 }
 
 .cardImg {
     place-self: center;
-    grid-area: A;
+    grid-area: 🖼️;
     height: 140px;
     width: 100px;
     object-fit: cover;
@@ -22,7 +22,7 @@
 .cardLocation {
     display: flex;
     flex-direction: row;
-    grid-area: B;
+    grid-area: loc;
     margin: 5px 0 0 0;
 }
 
@@ -58,7 +58,7 @@
 
 .cardTitle {
     margin: 0 0 3px 0;
-    grid-area: E;
+    grid-area: title;
     font-weight: 700;
     font-size: 19px;
     line-height: 30px;
@@ -68,7 +68,7 @@
 
 .cardTime {
     margin: 0 0 4px 0;
-    grid-area: F;
+    grid-area: time;
     font-weight: 700;
     font-size: 10.24px;
     line-height: 12px;
@@ -78,7 +78,7 @@
 
 .cardDesc {
     margin: 0;
-    grid-area: G;
+    grid-area: desc;
     font-weight: 400;
     font-size: 9.5px;
     line-height: 130%;
