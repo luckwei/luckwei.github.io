@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from "uuid";
 import liIcon from "../assets/images/li_icon.svg";
 import mailIcon from "../assets/images/mail_icon.svg";
 import myPhoto from "../assets/images/my_photo.webp";
@@ -7,12 +8,10 @@ import {
   liBtn,
   mailBtn,
   name,
-  picture,
   profile,
   title,
   website,
 } from "../styles/pages/Home.module.sass";
-import {v4 as uuidv4} from 'uuid'
 
 import profileData from "../data/profile";
 
@@ -25,7 +24,7 @@ export default () => {
   ));
   return (
     <>
-      <img className={picture} src={myPhoto} />
+      <img src={myPhoto} />
       <main className={profile}>
         <h1 className={name}>{profileData.name}</h1>
         <h3 className={title}>{profileData.title}</h3>
