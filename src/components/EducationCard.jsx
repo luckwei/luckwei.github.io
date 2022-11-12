@@ -8,7 +8,7 @@ import {
   cardLocation,
   cardTime,
   cardTitle,
-} from "../styles/components/EducationCard.module.css";
+} from "../styles/components/EducationCard.module.sass";
 
 export default function EducationCard(props) {
   const { imgSrc, country, name, timeFrom, timeTo, desc } = props.item;

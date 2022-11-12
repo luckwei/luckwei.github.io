@@ -2,7 +2,7 @@ import fbIcon from "../assets/images/fb_icon.svg";
 import ghIcon from "../assets/images/gh_icon.svg";
 import igIcon from "../assets/images/ig_icon.svg";
 import twtIcon from "../assets/images/twt_icon.svg";
-import { icons } from "../styles/components/Footer.module.css";
+import { icons } from "../styles/components/Footer.module.sass";
 
 export default () => (
   <footer className={icons}>

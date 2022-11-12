@@ -11,7 +11,7 @@ import {
   profile,
   title,
   website,
-} from "../styles/pages/Home.module.css";
+} from "../styles/pages/Home.module.sass";
 import {v4 as uuidv4} from 'uuid'
 
 import profileData from "../data/profile";
