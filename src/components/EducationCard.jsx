@@ -15,7 +15,7 @@ export default function EducationCard(props) {
   return (
     // imgSrc country name from to desc
     <div className={card}>
-      <img className={cardImg} src={imgSrc} />
+      <img className={cardImg} src={imgSrc} alt="Image of Institution" />
 
       <div className={cardLocation}>
         <img className={cardIc} src={travelMarker} />
