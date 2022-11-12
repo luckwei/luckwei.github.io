@@ -8,7 +8,7 @@ import {
   liBtn,
   mailBtn,
   name,
-  profile,
+  main,
   title,
   website,
 } from "../styles/pages/Home.module.sass";
@@ -25,7 +25,7 @@ export default () => {
   return (
     <>
       <img src={myPhoto} />
-      <main className={profile}>
+      <main className={main}>
         <h1 className={name}>{profileData.name}</h1>
         <h3 className={title}>{profileData.title}</h3>
         <h4 className={website}>{profileData.website}</h4>
