@@ -12,15 +12,16 @@ import {
   title,
   website,
 } from "../styles/pages/Home.module.css";
+import {v4 as uuidv4} from 'uuid'
 
 import profileData from "../data/profile";
 
 export default () => {
   const infoSection = Object.entries(profileData.info).map(([key, value]) => (
-    <>
+    <div key={uuidv4()}>
       <h3>{key}</h3>
       <p>{value}</p>
-    </>
+    </div>
   ));
   return (
     <>

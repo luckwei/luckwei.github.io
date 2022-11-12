@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import "the-new-css-reset/css/reset.css"
 import "./styles/index.css";
 import { BrowserRouter } from 'react-router-dom'
 
