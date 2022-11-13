@@ -1,18 +1,17 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import Education from "./pages/Education";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import Travel from "./pages/Education";
 
 export default () => (
   <>
     <Nav />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/travel" element={<Travel/>} />
+      <Route path="/education" element={<Education />} />
       <Route path="*" element={<NotFound />} />
-      {/* <Route path="*" element={<Navigate to="/" />} /> */}
     </Routes>
     <Footer />
   </>

@@ -7,7 +7,7 @@ export default () => (
     <Link to="/">
       <HomeIcon />
     </Link>
-    <Link to="/travel">
+    <Link to="/education">
       <GlobeIcon />
     </Link>
   </nav>
