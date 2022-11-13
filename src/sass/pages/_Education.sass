@@ -1,0 +1,41 @@
+main.education
+  display: flex
+  flex-direction: column
+  background: rgb(255, 255, 255)
+  row-gap: 25px
+  padding: 15px
+  .education-card
+    display: grid
+    column-gap: 12px
+    grid-template-areas: "🖼️ loc" "🖼️ title" "🖼️ time" "🖼️ desc"
+    align-items: center
+    .cardImg
+      grid-area: 🖼️
+      height: 140px
+      object-fit: cover
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+      border-radius: 5px
+    .cardLocation
+      display: flex
+      grid-area: loc
+      gap: 5px
+      align-items: center
+      svg
+        width: 7px
+        fill: #F55A5A
+      .cardCountry
+        font-size: 9px
+        letter-spacing: 0.17em
+    .cardTitle
+      grid-area: title
+      font-weight: bold
+      font-size: 19px
+    .cardTime
+      grid-area: time
+      font-weight: bold
+      font-size: 10.24px
+    .cardDesc
+      grid-area: desc
+      font-size: 9.5px
+      line-height: 12px
+      width: 170px

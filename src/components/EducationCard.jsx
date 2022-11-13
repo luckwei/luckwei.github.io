@@ -2,7 +2,7 @@ import TravelMarker from "../assets/images/travel_marker.svg";
 export default function EducationCard(props) {
   return (
     // imgSrc country name from to desc
-    <div className="card">
+    <div className="education-card">
       <img className="cardImg" src={props.imgSrc} alt="Image of Institution" />
 
       <div className="cardLocation">
