@@ -1,21 +1,21 @@
-import fbIcon from "../assets/images/fb_icon.svg";
-import ghIcon from "../assets/images/gh_icon.svg";
-import igIcon from "../assets/images/ig_icon.svg";
-import twtIcon from "../assets/images/twt_icon.svg";
+import FbIcon from "../assets/images/fb_icon.svg";
+import GhIcon from "../assets/images/gh_icon.svg";
+import IgIcon from "../assets/images/ig_icon.svg";
+import TwtIcon from "../assets/images/twt_icon.svg";
 
 export default () => (
   <footer>
     <a href="https://facebook.com/luckwei" target="_blank">
-      <img src={fbIcon} />
+      <FbIcon />
     </a>
     <a href="https://twitter.com/luckweicheong" target="_blank">
-      <img src={twtIcon} />
+      <TwtIcon />
     </a>
     <a href="https://instagram.com/cheongluckwei/" target="_blank">
-      <img src={igIcon} />
+      <IgIcon />
     </a>
     <a href="https://github.com/luckwei/" target="_blank">
-      <img src={ghIcon} />
+      <GhIcon />
     </a>
   </footer>
 );

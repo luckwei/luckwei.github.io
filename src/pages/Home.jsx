@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-import liIcon from "../assets/images/li_icon.svg";
-import mailIcon from "../assets/images/mail_icon.svg";
+import LiIcon from "../assets/images/li_icon.svg";
+import MailIcon from "../assets/images/mail_icon.svg";
 import myPhoto from "../assets/images/my_photo.webp";
 
 import profileData from "../data/profile";
@@ -20,11 +20,11 @@ export default () => {
       <h2 className="website">{profileData.website}</h2>
       <div className="connect">
         <a className="mailBtn" href={`mailto:${profileData.emailAddress}`}>
-          <img src={mailIcon} />
+          <MailIcon />
           Email
         </a>
         <a className="liBtn" href={profileData.linkedInLink} target="_blank">
-          <img src={liIcon} />
+          <LiIcon />
           LinkedIn
         </a>
       </div>
