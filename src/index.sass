@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap")
 
+svg
+  width: auto
+  height: auto
+  fill: currentColor
+
 body
   font-family: "Inter", sans-serif
   background: #23252c
@@ -16,11 +21,14 @@ nav
   border-radius: 10px 10px 0px 0px
   a
     padding: 20px 25px 15px
+    color: #918E9B
+    transition-duration: 220ms
     &:first-of-type
       padding-left: 35px
     &:hover
       background-color: rgb(0, 0, 0)
-  img
+      color: white
+  svg
     width: 22px
 
 footer
@@ -31,8 +39,12 @@ footer
   column-gap: 24px
   justify-content: center
   align-items: center
-  img
+  color: #918E9B
+  svg
     width: 25px
+    transition-duration: 300ms
+    &:hover
+      color: white
 
 main.home
   background: #1a1b21
@@ -65,15 +77,15 @@ main.home
       justify-content: center
       width: 115px
       column-gap: 8px
-      img
+      &.mailBtn
+        background: white
+        border-radius: 6px
+        color: black
+      &.liBtn
+        background: #5093e2
+        border-radius: 6px
+      svg
         width: 16px
-  .mailBtn
-    background: white
-    border-radius: 6px
-    color: black
-  .liBtn
-    background: #5093e2
-    border-radius: 6px
   .info
     display: flex
     flex-direction: column
@@ -113,8 +125,9 @@ main.education
       grid-area: loc
       gap: 5px
       align-items: center
-      .cardIc
+      svg
         width: 7px
+        fill: #F55A5A
       .cardCountry
         font-size: 9px
         letter-spacing: 0.17em
