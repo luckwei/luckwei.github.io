@@ -1,3 +1,4 @@
+import travelMarker from "../assets/images/travel_marker.svg"
 export default function EducationCard(props) {
   return (
     // imgSrc country name from to desc
@@ -5,7 +6,7 @@ export default function EducationCard(props) {
       <img className="cardImg" src={props.imgSrc} alt="Image of Institution" />
 
       <div className="cardLocation">
-        <img className="cardIc" src={props.travelMarker} />
+        <img className="cardIc" src={travelMarker} />
         <h4 className="cardCountry">{props.country}</h4>
       </div>
 
